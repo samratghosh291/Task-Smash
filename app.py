@@ -86,4 +86,4 @@ def edit(id:int):
 
 
 if __name__ in "__main__":
-    app.run(debug=True)
+    app.run()
