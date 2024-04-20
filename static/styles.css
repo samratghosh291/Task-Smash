@@ -1,0 +1,78 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content h1 {
+  color: #153a62;
+}
+.content h4 {
+  color: #666;
+}
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.content table th, .content table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.content table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.content table a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.content table a:hover {
+  background-color: #153a62;
+}
+.content table #dlt_btn {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content table #dlt_btn:hover {
+  background-color: #c82333;
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.content #btn_add {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.content #btn_add:hover {
+  background-color: #218838;
+}/*# sourceMappingURL=styles.css.map */
